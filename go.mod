@@ -1,0 +1,1 @@
+module "github.com/bkielbasa/ec2-ssh"
