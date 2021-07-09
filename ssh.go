@@ -87,7 +87,6 @@ func sshOptions(ctx context.Context, args []string) (map[string][]string, error)
 
 		if _, exists := res[parts[0]]; !exists {
 			res[parts[0]] = []string{}
-			continue
 		}
 
 		res[parts[0]] = append(res[parts[0]], strings.Join(parts[1:], " "))
